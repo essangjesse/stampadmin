@@ -52,7 +52,7 @@ const routes = [
 const router = new VueRouter({
   mode: "history",
   base: process.env.BASE_URL,
-  api_base: "http://67.207.69.246/api/v1/gateway",
+  api_base: "https://stamp-gateway-service.allbattery.ng/api/v1/gateway",
   routes,
 });
 
