@@ -81,7 +81,7 @@ router.afterEach((to) => {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
                 "Client-Public": 2,
-                "Client-Secret": "ibTVTRz6TdUi6Byc9tWvQAE4GDz8wAzS9GDvMBkk",
+                "Client-Secret": "AMpnJrBVuFxvSM7k0V7sYt05S59lPxfOat9g3p0F",
                 "Refresh-Token": store.getters.refreshToken 
             }
         })

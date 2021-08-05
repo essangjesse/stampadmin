@@ -64,7 +64,7 @@ export default {
                 "remember": false
             },
             clientPublic: 2,
-            clientSecret: "ibTVTRz6TdUi6Byc9tWvQAE4GDz8wAzS9GDvMBkk",
+            clientSecret: "AMpnJrBVuFxvSM7k0V7sYt05S59lPxfOat9g3p0F",
             processing: {
                 submit: false
             },
