@@ -52,7 +52,7 @@ const routes = [
 const router = new VueRouter({
   mode: "history",
   base: process.env.BASE_URL,
-  api_base: "https://stamp-gateway-service.allbattery.ng/api/v1/gateway",
+  api_base: "https://stamp.allbattery.ng/api/v1/gateway",
   routes,
 });
 
@@ -81,7 +81,7 @@ router.afterEach((to) => {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
                 "Client-Public": 2,
-                "Client-Secret": "AMpnJrBVuFxvSM7k0V7sYt05S59lPxfOat9g3p0F",
+                "Client-Secret": "LuMggV6vjeYaEUzJ4wfrIIVXPRr7ORleCQb8V7qa",
                 "Refresh-Token": store.getters.refreshToken 
             }
         })

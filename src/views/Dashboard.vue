@@ -80,7 +80,7 @@
                     <div class="col-sm-6 col-xl-4">
                         <div class="card case-widget">
                             <img v-if="active_case.image == null" src="@/assets/images/no-image.jpg" class="card-img-top" alt="case-details-image">
-                            <img v-else :src="'https://stamp-gateway-service.allbattery.ng/uploads/images/' + active_case.image" class="card-img-top" alt="case-details-image">
+                            <img v-else :src="'https://stamp.allbattery.ng/uploads/images/' + active_case.image" class="card-img-top" alt="case-details-image">
                             <div class="card-body">
                                 <div class="row">
                                     <div class="col-sm-12">
