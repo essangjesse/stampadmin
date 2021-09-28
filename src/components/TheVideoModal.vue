@@ -7,7 +7,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <video ref="video" :src="'https://stamp-gateway-service.allbattery.ng//uploads/videos/' + video" controls width="100%"></video>
+                    <video ref="video" :src="'https://stamp.allbattery.ng/uploads/videos/' + video" controls width="100%"></video>
                 </div>
                 <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" ref="close" data-bs-dismiss="modal" @click="resetVideo()">Close</button>
